@@ -16,6 +16,7 @@ class monitor;
     virtual mem_intf mem_vif;
 
     //Define covergroup
+    //Updated the number of bins to cover 4 bit width mem
     covergroup CovMem;
         coverpoint trans.addr {
             bins zero = {0};
